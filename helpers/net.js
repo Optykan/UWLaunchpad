@@ -11,6 +11,8 @@ class Net {
 
     urlencoded = '?' + urlencoded.substring(1)
 
+    console.log(url+urlencoded)
+
     return f(url + urlencoded).then(result => {
       return result.json()
     }).then(json => {
