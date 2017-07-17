@@ -17,6 +17,11 @@
     "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
     "nodemon": "^1.11.0"
   }
 }

@@ -1,3 +1,3 @@
-	fullpage.initialize('#fullpage', {
-		css3:true
-	});
+$(document).ready(function() {
+	$('#fullpage').fullpage();
+});
